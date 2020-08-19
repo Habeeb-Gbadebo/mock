@@ -1,0 +1,89 @@
+body{
+    background: #0e0e0e;
+    color: #fff;
+    margin: 0;
+}
+
+.container{
+    max-width: 641px;
+    height: 478px;
+    margin: 73.5px auto;
+    background: url(../image/macbook-web.jpg);
+}
+
+.main-nav{
+    padding-top: 2px;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    
+}
+
+.main-nav ul{
+    padding: 0;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.content h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.content p{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.button{
+    background: orangered;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content .hr-1{
+    width: 20px;
+    background: orangered;
+}
+
+footer{
+    background: orangered;
+    text-align: center;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+footer .hr-2{
+    width: 20px;
+    color: #fff;
+}
+
+footer p{
+    width: 400px;
+    margin: 0 auto;
+}
